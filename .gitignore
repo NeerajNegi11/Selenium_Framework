@@ -12,6 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -40,3 +41,6 @@ build/
 
 .env
 .run/
+
+# Environment-specific configuration
+src/main/resources/config.properties
